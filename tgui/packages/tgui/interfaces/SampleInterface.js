@@ -9,7 +9,7 @@ export const SampleInterface = (props, context)=> {
 		color,
 	} = data;
 	return (
-		<Window resizable>
+		<Window resizable title="TGUI Sample Interface">
 			<Window.Content scrollable>
 				<Section title="Health status">
 					<LabeledList.Item label = "Health">
